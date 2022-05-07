@@ -1,0 +1,110 @@
+.rightContainer {
+  flex: 3.5;
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+}
+
+.rightWrapper {
+  padding: 20px 20px 0 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
+
+.bdContainer {
+  display: flex;
+  align-items: center;
+}
+.bdImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.bdText {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.sponsor {
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+.rightTitle {
+  font-size: 18px;
+  color: #8d949e;
+  margin-bottom: 20px;
+}
+.friendList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.profileRightBar {
+  flex: 5;
+  border-radius: 10px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.profileWrapperRight {
+  padding: 10px;
+}
+
+.rightbarTitle {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.rightbarInfo {
+  margin-bottom: 30px;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.infoIcon {
+  margin-right: 5px;
+  color: #8c939d;
+}
+
+.infoKey {
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 5px;
+}
+.infoValue {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.rightbarFollowings {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-between;
+}
+
+.following {
+  display: flex;
+  flex-direction: column;
+}
+
+.followingImg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}

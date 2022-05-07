@@ -1,0 +1,35 @@
+.friend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profileContainer {
+  margin-right: 10px;
+  position: relative;
+}
+
+.avaOnline {
+  max-width: 100%;
+  height: auto;
+}
+.profileImg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.friendOnline {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgb(2, 199, 2);
+  border: 2px solid #f1f1f1;
+  position: absolute;
+  margin: 1px 0 0 -10px;
+}
+
+.friendUsername {
+  font-weight: 400;
+}

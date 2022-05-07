@@ -1,0 +1,194 @@
+.contentContainer {
+  width: 95%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  margin: 30px 0;
+}
+
+.contentWrapper {
+  padding: 10px;
+}
+
+.contentTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contentLeft {
+  display: flex;
+  align-items: center;
+}
+.leftProfile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.contentCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftUser {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.leftDate {
+  font-size: 11px;
+  color: #65676b;
+}
+
+.contentRight {
+}
+
+.moreIcon {
+  color: black;
+}
+
+.contentCenter {
+  margin: 20px 0;
+}
+
+.centerImg {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.contentBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottomLeft {
+  display: flex;
+  align-items: center;
+}
+
+.likeIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.likeCounter {
+  color: #65676b;
+  font-size: 15px;
+}
+
+.bottomRight {
+}
+
+.commentText {
+  color: #65676b;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.contentAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.likeAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border-top: 0.5px solid rgb(199, 199, 199);
+  border-bottom: 0.5px solid rgb(199, 199, 199);
+}
+.lAction {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+
+.lAction:hover {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.btn {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  color: rgb(96 103 112);
+}
+
+.lText {
+  display: flex;
+  align-items: center;
+  color: rgb(96 103 112);
+  font-size: 16px;
+  font-weight: 500;
+}
+.active,
+.active:hover {
+  color: #1b81f5;
+}
+.commentAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border-top: 0.5px solid rgb(199, 199, 199);
+  border-bottom: 0.5px solid rgb(199, 199, 199);
+}
+.cAction {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+
+.cAction:hover {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.cIcon {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  color: rgb(96 103 112);
+}
+.cText {
+  display: flex;
+  align-items: center;
+  color: rgb(96 103 112);
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 3px;
+}
